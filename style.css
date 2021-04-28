@@ -3,12 +3,29 @@
 *{
     font-family: 'Montserrat' ;
 }
-
+.main-text{
+    font-size: 12px;
+    font-weight: bold;
+}
 h1,h2,body{
     margin: 0px;
     padding: 0px;
 }
-
+.EDIYA{
+    width: 50px;
+    height: auto;
+    float:left;
+}
+.ZEPETTO{
+    width: 60px;
+    height: auto;
+    float:left; 
+}
+.KIA{
+    width: 60px;
+    height: auto;
+    float:left;
+}
 footer{
     text-align: center; 
     background-color: black;
@@ -22,7 +39,7 @@ footer{
     padding: 30px;
     margin: 30px;
     margin: 0 auto;
-    border: 5px solid rgb(153, 146, 146);
+    border: 2px solid rgb(153, 146, 146);
     box-shadow: 0 1px 20px 0 rgb(0,0,0,0,0.1);
 
     /*box-shadow 박스에 그림자 가능을 추가 */
@@ -73,6 +90,13 @@ section{
     text-align: left;
     float: left;
 }
+.title-kr-text{
+    font-size: 16px;
+    font-weight: bold;
+    color:black;
+    text-align: left;
+    float: left;
+}
 .year-text{
     font-size: 12px;
     font-weight: bold;
@@ -113,3 +137,7 @@ section{
     width: 20px;
     height: 20px;
 }
+
+
+/* 이미지 밑에 _ 줄을 없앨수있는 역할 */
+a { text-decoration:none }
